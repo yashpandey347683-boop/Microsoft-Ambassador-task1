@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CYBORG-X | Future Technology</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            CYBORG<span>-X</span>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#technology">Technology</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </header>
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                NEXT GENERATION TECHNOLOGY
+            </p>
+
+            <h1>
+                WELCOME TO THE
+                <span>CYBORG</span>
+                FUTURE
+            </h1>
+
+            <p class="hero-text">
+                Explore a futuristic world where humans and technology
+                work together to create smarter and more powerful solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#technology" class="btn primary-btn">
+                    Explore Technology
+                </a>
+
+                <a href="#about" class="btn secondary-btn">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="cyborg-container">
+
+            <div class="cyborg-circle">
+
+                <div class="robot-head">
+
+                    <div class="robot-eye left-eye"></div>
+
+                    <div class="robot-eye right-eye"></div>
+
+                    <div class="robot-line"></div>
+
+                </div>
+
+            </div>
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="section">
+
+        <div class="section-heading">
+
+            <p>ABOUT THE PROJECT</p>
+
+            <h2>
+                HUMAN <span>+</span> TECHNOLOGY
+            </h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <div class="icon">🤖</div>
+
+                <h3>Smart Systems</h3>
+
+                <p>
+                    Intelligent systems designed to solve complex
+                    problems and improve everyday experiences.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="icon">⚡</div>
+
+                <h3>High Performance</h3>
+
+                <p>
+                    Modern technologies designed for speed,
+                    efficiency and better performance.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="icon">🧠</div>
+
+                <h3>Artificial Intelligence</h3>
+
+                <p>
+                    AI-powered solutions help machines understand,
+                    learn and make intelligent decisions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="technology" class="technology-section">
+
+        <div class="section-heading">
+
+            <p>FUTURE TECHNOLOGY</p>
+
+            <h2>
+                POWERING THE <span>FUTURE</span>
+            </h2>
+
+        </div>
+
+
+        <div class="technology-grid">
+
+            <div class="tech-card">
+
+                <div class="tech-number">
+                    01
+                </div>
+
+                <h3>Artificial Intelligence</h3>
+
+                <p>
+                    Intelligent algorithms that allow machines
+                    to learn from data and solve problems.
+                </p>
+
+                <button onclick="showMessage('Artificial Intelligence')">
+                    Explore
+                </button>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <div class="tech-number">
+                    02
+                </div>
+
+                <h3>Robotics</h3>
+
+                <p>
+                    Advanced robotic systems designed to work
+                    alongside humans in different environments.
+                </p>
+
+                <button onclick="showMessage('Robotics')">
+                    Explore
+                </button>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <div class="tech-number">
+                    03
+                </div>
+
+                <h3>Cyber Security</h3>
+
+                <p>
+                    Protecting digital systems, networks and
+                    information from modern cyber threats.
+                </p>
+
+                <button onclick="showMessage('Cyber Security')">
+                    Explore
+                </button>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <div class="tech-number">
+                    04
+                </div>
+
+                <h3>Future Computing</h3>
+
+                <p>
+                    Exploring powerful computing technologies
+                    that can transform the digital world.
+                </p>
+
+                <button onclick="showMessage('Future Computing')">
+                    Explore
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat">
+            <h2 class="counter" data-target="99">0</h2>
+            <p>Performance</p>
+        </div>
+
+        <div class="stat">
+            <h2 class="counter" data-target="24">0</h2>
+            <p>Technology</p>
+        </div>
+
+        <div class="stat">
+            <h2 class="counter" data-target="100">0</h2>
+            <p>Innovation</p>
+        </div>
+
+        <div class="stat">
+            <h2 class="counter" data-target="365">0</h2>
+            <p>Future Ready</p>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-heading">
+
+            <p>JOIN THE FUTURE</p>
+
+            <h2>
+                READY TO <span>CONNECT?</span>
+            </h2>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit" class="submit-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <div class="logo">
+            CYBORG<span>-X</span>
+        </div>
+
+        <p>
+            © 2026 CYBORG-X. Built for the future.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
